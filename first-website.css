@@ -1,5 +1,11 @@
 .bg1{
-  background-color: grey;
-  color: white;
+  background-color: gold;
+  color: black;
   font-family: 'Times New Roman';
+}
+
+.bg2{
+  background-color: grey;
+  color: red;
+  font-family: Times New Roman;
 }
