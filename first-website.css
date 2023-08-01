@@ -9,3 +9,28 @@
   color: red;
   font-family: Times New Roman;
 }
+
+img{
+  width: 75%;
+  height: 35%;
+  border-radius: 30px;
+  align-self: center;
+}
+
+h1{
+  text-align:center ;
+  font-size: large;
+  font-family: 'Times New Roman';
+}
+
+h2{
+  text-align:center ;
+  font-size: medium;
+  font-family: 'Times New Roman';
+}
+
+p{
+  text-align:center ;
+  font-size: small;
+  font-family: 'Times New Roman';
+}
