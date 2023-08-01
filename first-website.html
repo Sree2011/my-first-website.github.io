@@ -18,7 +18,7 @@
 
 <body>
     <!--------------------------Home Section ----------------------------------------------------->
-    <div class="bg1" id="sectionHome">
+    <div class="bg1">
 <!--------------------------Navigation bar ----------------------------------------------------->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">durga</a>
@@ -46,41 +46,53 @@
               </ul>
             </div>
           </nav>
-    
+        </div>
+    </div>
+
+        
         <h1>Here is our tour guide.</h1>
         <h2>Want to know more? Click the button below</h2>
-        <button onclick = "display('sectionTaj')">Places available in this website</button>
-    </div>
+        <h3>Places available in this website:</h3>
+
+        
+<!--------------------------Places Section ----------------------------------------------------->
+<div class="bg2" id="sectionPlaces">
+    <button class="btn btn-primary" onclick="display('sectionTaj')">Tajmahal</button>
+    <button class="btn btn-info"  onclick="display('sectionChar')">Charminar</button>
+    <button class="btn btn-success"  onclick="display('sectionOoty')">Ooty</button>
+</div>
 <!--------------------------Taj Mahal Section ----------------------------------------------------->
-    <div class="bg2" id="sectionTaj">
+    <section class="bg2" id="sectionTaj" target="_blank">
         <div class="d-flex flex-column justify-content-center">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Taj_Mahal_islamic_architecture.JPG/800px-Taj_Mahal_islamic_architecture.JPG"/>
             <p>Taj Mahal is a beautiful place in Agra.<br/>
                 It was built by the Mughal King Shahjahan in memory of his wife Mumtaj Mahal.</p>
         </div>
-    </div>
+        <button class="btn btn-primary" onclick="display('sectionPlaces')">Back</button>
+    </section>
 
 <!--------------------------Charminar Section ----------------------------------------------------->
-<div class="bg2" id="sectionChar">
+<section class="bg2" id="sectionChar" target="_blank">
     <div class="d-flex flex-column justify-content-center">
         <img src="https://wallpapercave.com/wp/wp6539521.jpg"/>
         <p>Charminar is a beautiful place in Hyderabad.<br/>
             It was built by the Nizam kings in the city center.</p>
     </div>
-</div>
+    <button class="btn btn-primary" onclick="display('sectionPlaces')">Back</button>
+</section>
 
 
 
 <!-------------------------Ooty Section ----------------------------------------------------->
-<div class="bg2" id="sectionOoty">
+<section class="bg2" id="sectionOoty" target="_blank">
     <div class="d-flex flex-column justify-content-center">
         <img src="https://www.webfx.com/blog/wp-content/uploads/2015/02/image_01_CC_license-001-1.jpg"/>
         <p>Ooty is a famous hill station in tamilnadu.<br/>
             It has a natural beautiful gardens.</p>
     </div>
-</div>
-
-    
+    <button class="btn btn-primary" onclick="display('sectionPlaces')">Back</button>
+</section>
+<script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
 </body>
   
 </html>
